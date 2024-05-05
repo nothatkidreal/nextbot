@@ -1,0 +1,46 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    },
+    "mp:quandale_dingle": {
+      "textures": "textures/items/pamobile/mp_quandale_dingle"
+    },
+    "mp:saul_goodman": {
+      "textures": "textures/items/pamobile/mp_saul_goodman"
+    },
+    "mp:selene": {
+      "textures": "textures/items/pamobile/mp_selene"
+    },
+    "mp:obunga": {
+      "textures": "textures/items/pamobile/mp_obunga"
+    },
+    "mp:troll_face": {
+      "textures": "textures/items/pamobile/mp_troll_face"
+    },
+    "mp:marmite": {
+      "textures": "textures/items/pamobile/mp_marmite"
+    },
+    "mp:mr_incredible": {
+      "textures": "textures/items/pamobile/mp_mr_incredible"
+   },
+    "mp:sanic": {
+      "textures": "textures/items/pamobile/mp_sanic"
+  },
+    "mp:armstrong": {
+      "textures": "textures/items/pamobile/mp_armstrong"
+  },
+    "mp:smile": {
+      "textures": "textures/items/pamobile/mp_smile"
+  },
+    "mp:patrick_bateman": {
+      "textures": "textures/items/pamobile/mp_patrick_bateman"
+  },
+    "mp:nerd": {
+      "textures": "textures/items/pamobile/mp_nerd"
+  },
+    "mp:uncle": {
+      "textures": "textures/items/pamobile/mp_uncle"
+    }
+  }
+}
