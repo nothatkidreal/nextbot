@@ -1,0 +1,37 @@
+{
+  "minecraft:client_entity": {
+    "description": {
+      "render_controllers": [
+        "controller.render.witch"
+      ],
+      "materials": {
+        "default": "witch"
+      },
+      "geometry": {
+        "default": "geometry.nhk_spaghetti"
+      },
+      "animations": {
+        "attack": "animation.nextbot.attack",
+        "attack_controllers": "controller.animation.nextbot.attack"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 52
+      },
+      "identifier": "nhk:spaghetti",
+      "scripts": {
+        "animate": [
+          "attack_controllers"
+        ],
+        "scale": "4",
+        "pre_animation": [
+          "variable.attack = Math.sin(variable.attack_time * 30.0);"
+        ]
+      },
+      "textures": {
+        "default": "textures/entity/nextbots/nhk_spaghetti"
+      }
+    },
+    "format_version": "1.10.0"
+  }
+}
